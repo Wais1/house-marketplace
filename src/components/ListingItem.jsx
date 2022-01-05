@@ -6,6 +6,7 @@ import bathtubIcon from '../assets/svg/bathtubIcon.svg'
 
 function ListingItem({ listing, id, onEdit, onDelete }) {
   return (
+    /* placeholder */
     <li className='categoryListing'>
       <Link
         to={`/category/${listing.type}/${id}`}
